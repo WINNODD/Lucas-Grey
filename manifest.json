@@ -24,35 +24,16 @@
 			"tooltip": "Disguise as anyone in ICA Facility",
 			"type": "checkbox",
 			"contentFolders": [
-				"ICA Facility",
-				"ShareS1",
-				"ShareICAParisSapiMarrakesh",
-				"ShareICASapi",
-				"ShareICAParisSapiMarrakeshBangkok"
+				"Jacket"
 			],
 			"dependencies": [
 				{
-					"runtimeID": "0072C345D02ADE97",
+					"runtimeID": "00514C84C7CAE321",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
 				{
-					"runtimeID": "005CB07C69DFFF2A",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "008E18DFC5DB43AC",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "00AF11E494E416DC",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "00D34A349ED35CB5",
+					"runtimeID": "00F706C62B84F93C",
 					"toChunk": 0,
 					"portFromChunk1": true
 				}
@@ -63,22 +44,46 @@
 			"tooltip": "Disguise as anyone in Paris",
 			"type": "checkbox",
 			"contentFolders": [
-				"Paris",
-				"ShareS1",
-				"ShareParisSapi",
-				"ShareICAParisSapiMarrakesh",
-				"ShareParisMarrakesh",
-				"ShareParisMarrakeshColorado",
-				"ShareICAParisSapiMarrakeshBangkok"
+				"JacketWound"
 			],
 			"dependencies": [
 				{
-					"runtimeID": "0072C345D02ADE97",
+					"runtimeID": "00514C84C7CAE321",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
 				{
-					"runtimeID": "005CB07C69DFFF2A",
+					"runtimeID": "00D49AFF08625834",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0091FF4DD884AA9D",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00A293A418A97568",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00F706C62B84F93C",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "006AA60835A796C1",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0070CA134D3881BF",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00DAA699AA655196",
 					"toChunk": 0,
 					"portFromChunk1": true
 				}
