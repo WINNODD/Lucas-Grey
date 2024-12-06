@@ -260,15 +260,11 @@
 			"tooltip": "Disguise as anyone in Bangkok",
 			"type": "checkbox",
 			"contentFolders": [
-				"Bangkok",
-				"ShareS1",
-				"ShareSapiMarrakeshBangkok",
-				"ShareICAParisSapiMarrakeshBangkok",
-				"ShareSapiBangkokColoradoHokkaido"
+				"Skydiving"
 			],
 			"dependencies": [
 				{
-					"runtimeID": "0072C345D02ADE97",
+					"runtimeID": "000B95D2DDCC6056",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
@@ -314,19 +310,13 @@
 			"tooltip": "Disguise as anyone in Hokkaido",
 			"type": "checkbox",
 			"contentFolders": [
-				"Hokkaido",
-				"ShareS1",
-				"ShareSapiBangkokColoradoHokkaido"
+				"Knight"
 			],
 			"dependencies": [
 				{
-					"runtimeID": "0072C345D02ADE97",
+					"runtimeID": "000B95D2DDCC6056",
 					"toChunk": 0,
 					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "00DC68856831C7B8",
-					"toChunk": 1
 				}
 			]
 		},

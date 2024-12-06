@@ -1,0 +1,71 @@
+{
+	"tempHash": "0097A63DC49E2206",
+	"tbluHash": "00BA74904835A327",
+	"rootEntity": "2ed3aa8cc1e0b74f",
+	"entities": {
+		"2ed3aa8cc1e0b74f": {
+			"parent": null,
+			"name": "GeomEntity01",
+			"factory": "[modules:/zgeomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgeomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 0.6000000238418579,
+						"z": 0.6000000238418579
+					}
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A9DDF1C232B194",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

@@ -3,28 +3,9 @@
 	"tbluHash": "001FB2C60F9A0074",
 	"rootEntity": "1d2f7cd013c2c16d",
 	"entities": {
-		"0c6ba4853cbf888f": {
-			"parent": "14a843f60526b2c2",
-			"name": "Lerp 2",
-			"factory": "[modules:/zmathlerp.class].pc_entitytype",
-			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
-			"properties": {
-				"m_B": { "type": "float32", "value": 20.0 },
-				"m_fT": { "type": "float32", "value": 0.0 }
-			},
-			"events": {
-				"Lerp": {
-					"SetStrengthAmplitude": [
-						"be60e6279b63a72f",
-						"1541f68380a9134a",
-						"6a637f3a54454b44"
-					]
-				}
-			}
-		},
 		"1d2f7cd013c2c16d": {
 			"parent": null,
-			"name": "OUTFIT_Cinematic_Unique_LucasGrey_Parachute_M_Actor_v0",
+			"name": "OUTFIT_WINNODD_LucasGrey_Skydive_M_Actor_v0",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint",
 			"properties": {
@@ -455,24 +436,6 @@
 			},
 			"events": { "EventReceived": { "T": ["83373f1fedeed2fe"] } }
 		},
-		"8fd23e22a557e195": {
-			"parent": "1d2f7cd013c2c16d",
-			"name": "BoneAttach",
-			"factory": "[modules:/zboneattachentity.class].pc_entitytype",
-			"blueprint": "[modules:/zboneattachentity.class].pc_entityblueprint",
-			"properties": {
-				"m_linkedEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "1d2f7cd013c2c16d"
-				},
-				"m_BoneName": { "type": "ZString", "value": "Spine" },
-				"m_spatial": {
-					"type": "SEntityTemplateReference",
-					"value": "14a843f60526b2c2",
-					"postInit": true
-				}
-			}
-		},
 		"6e43173bfbc523f3": {
 			"parent": "1d2f7cd013c2c16d",
 			"name": "Mesh_Helmet_Skydive",
@@ -496,27 +459,20 @@
 			"properties": {
 				"m_B": { "type": "float32", "value": 0.699999988079071 },
 				"m_fT": { "type": "float32", "value": 0.0 }
-			},
-			"events": {
-				"Lerp": {
-					"ConstantVector1D_02_Value": ["d0844af36bb5ac1a"],
-					"T": ["14a843f60526b2c2"]
-				}
 			}
 		},
 		"e0e66f9045f1e88f": {
 			"parent": "1d2f7cd013c2c16d",
-			"name": "Head_LucasGrey_Cinematic",
-			"factory": "00E10D113CBBE443",
-			"blueprint": "0057F9F25AAF7573",
+			"name": "Mesh_Head",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
 			"properties": {
-				"CharacterLinkedEntity2": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["1d2f7cd013c2c16d"]
-				},
-				"CharacterLinkedEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "1d2f7cd013c2c16d"
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "000B95D2DDCC6056",
+						"flag": "5F"
+					}
 				}
 			}
 		},
@@ -565,25 +521,6 @@
 				}
 			}
 		},
-		"649395605c22befc": {
-			"parent": "14a843f60526b2c2",
-			"name": "Lerp",
-			"factory": "[modules:/zmathlerp.class].pc_entitytype",
-			"blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
-			"properties": {
-				"m_B": { "type": "float32", "value": 60.0 },
-				"m_fT": { "type": "float32", "value": 0.0 }
-			},
-			"events": {
-				"Lerp": {
-					"SetStrength": [
-						"be60e6279b63a72f",
-						"1541f68380a9134a",
-						"6a637f3a54454b44"
-					]
-				}
-			}
-		},
 		"241ae875d0c24801": {
 			"parent": "1d2f7cd013c2c16d",
 			"name": "Mesh_Gloves",
@@ -597,184 +534,6 @@
 						"flag": "5F"
 					}
 				}
-			}
-		},
-		"b83d4cfa3270d300": {
-			"parent": "14a843f60526b2c2",
-			"name": "VolumeBox",
-			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
-			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
-					}
-				},
-				"m_vGlobalSize": {
-					"type": "SVector3",
-					"value": { "x": 10.0, "y": 10.0, "z": 10.0 }
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "14a843f60526b2c2",
-					"postInit": true
-				}
-			}
-		},
-		"1541f68380a9134a": {
-			"parent": "14a843f60526b2c2",
-			"name": "Wind 2",
-			"factory": "[modules:/zwindentity.class].pc_entitytype",
-			"blueprint": "[modules:/zwindentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 72.17462399445185
-						},
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
-					}
-				},
-				"m_fStrength": { "type": "float32", "value": 0.0 },
-				"m_AreaBoxes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["b83d4cfa3270d300"]
-				},
-				"m_fStrengthAmplitude": {
-					"type": "float32",
-					"value": 0.0
-				},
-				"m_fStrengthFrequency": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "14a843f60526b2c2",
-					"postInit": true
-				}
-			}
-		},
-		"6a637f3a54454b44": {
-			"parent": "14a843f60526b2c2",
-			"name": "Wind 3",
-			"factory": "[modules:/zwindentity.class].pc_entitytype",
-			"blueprint": "[modules:/zwindentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -72.1745997257277
-						},
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
-					}
-				},
-				"m_fStrength": { "type": "float32", "value": 0.0 },
-				"m_AreaBoxes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["b83d4cfa3270d300"]
-				},
-				"m_fStrengthAmplitude": {
-					"type": "float32",
-					"value": 0.0
-				},
-				"m_fStrengthFrequency": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "14a843f60526b2c2",
-					"postInit": true
-				}
-			}
-		},
-		"be60e6279b63a72f": {
-			"parent": "14a843f60526b2c2",
-			"name": "Wind",
-			"factory": "[modules:/zwindentity.class].pc_entitytype",
-			"blueprint": "[modules:/zwindentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
-					}
-				},
-				"m_fStrength": { "type": "float32", "value": 0.0 },
-				"m_AreaBoxes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["b83d4cfa3270d300"]
-				},
-				"m_fStrengthAmplitude": {
-					"type": "float32",
-					"value": 0.0
-				},
-				"m_fStrengthFrequency": {
-					"type": "float32",
-					"value": 0.5
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "14a843f60526b2c2",
-					"postInit": true
-				}
-			}
-		},
-		"14a843f60526b2c2": {
-			"parent": "1d2f7cd013c2c16d",
-			"name": "H3_Cinematic_LocalWind",
-			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
-			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 90.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "1d2f7cd013c2c16d"
-				}
-			},
-			"inputCopying": {
-				"T": { "T": ["649395605c22befc", "0c6ba4853cbf888f"] }
-			},
-			"propertyAliases": {
-				"m_bEnabled": [
-					{
-						"originalProperty": "m_bEnabled",
-						"originalEntity": "be60e6279b63a72f"
-					}
-				]
 			}
 		}
 	},
