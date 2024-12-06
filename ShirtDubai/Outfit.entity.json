@@ -3,39 +3,9 @@
 	"tbluHash": "00CC0A145A1159D3",
 	"rootEntity": "ef5e1756532357aa",
 	"entities": {
-		"2f5df3b1bd4cae75": {
-			"parent": "ef5e1756532357aa",
-			"name": "Mesh_Hair",
-			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "001802A69BE1C15B",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		"daa6cfbefc678c64": {
-			"parent": "ef5e1756532357aa",
-			"name": "Mesh_Beard",
-			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0070089E341A3353",
-						"flag": "5F"
-					}
-				}
-			}
-		},
 		"ef5e1756532357aa": {
 			"parent": null,
-			"name": "OUTFIT_Cinematic_LucasGrey_DesparateTraveler_Actor_v0",
+			"name": "OUTFIT_WINNODD_LucasGrey_Shirt_Dubai_M_Actor_v0",
 			"factory": "00C0753FBF784C66",
 			"blueprint": "007294473357329E",
 			"properties": {
@@ -58,7 +28,7 @@
 				"m_pBonesAndCollisionResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "0067DBFCD08097C8",
+						"resource": "0017416135CF879C",
 						"flag": "5F"
 					}
 				},
@@ -72,9 +42,7 @@
 						"20fe6657cb1b388d",
 						"fbd7558851d5d414",
 						"2a346945227f91e8",
-						"e38f78edcdac8242",
-						"daa6cfbefc678c64",
-						"2f5df3b1bd4cae75"
+						"e38f78edcdac8242"
 					],
 					"postInit": true
 				}
@@ -126,19 +94,9 @@
 		},
 		"e38f78edcdac8242": {
 			"parent": "ef5e1756532357aa",
-			"name": "Head_LucasGrey_Cinematic",
-			"factory": "00E10D113CBBE443",
-			"blueprint": "0057F9F25AAF7573",
-			"properties": {
-				"CharacterLinkedEntity2": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ef5e1756532357aa"]
-				},
-				"CharacterLinkedEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "ef5e1756532357aa"
-				}
-			}
+			"name": "Head_LucasGrey",
+			"factory": "00FA41C25F90B53D",
+			"blueprint": "00D98E235D0B78A3"
 		},
 		"2a346945227f91e8": {
 			"parent": "ef5e1756532357aa",

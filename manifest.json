@@ -21,7 +21,7 @@
 	"options": [
 		{
 			"name": "Jacket",
-			"tooltip": "Disguise as anyone in ICA Facility",
+			"tooltip": "Lucas Grey in his classic leather jacket",
 			"type": "checkbox",
 			"contentFolders": [
 				"Jacket"
@@ -218,38 +218,31 @@
 			"tooltip": "Disguise as anyone in Marrakesh",
 			"type": "checkbox",
 			"contentFolders": [
-				"Marrakesh",
-				"ShareS1",
-				"ShareICAParisSapiMarrakesh",
-				"ShareSapiMarrakesh",
-				"ShareParisMarrakesh",
-				"ShareParisMarrakeshColorado",
-				"ShareSapiMarrakeshBangkok",
-				"ShareICAParisSapiMarrakeshBangkok"
+				"ShirtDubai"
 			],
 			"dependencies": [
 				{
-					"runtimeID": "0072C345D02ADE97",
+					"runtimeID": "0008A916D3DC9708",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
 				{
-					"runtimeID": "005CB07C69DFFF2A",
+					"runtimeID": "001BD12EF4759E71",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
 				{
-					"runtimeID": "0069176EDF6645C8",
+					"runtimeID": "0098BC51E5F6A1A2",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
 				{
-					"runtimeID": "00AF11E494E416DC",
+					"runtimeID": "00FAC7175A8769D8",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
 				{
-					"runtimeID": "0054D5B03CEC2DB7",
+					"runtimeID": "00D2D0D4793132B8",
 					"toChunk": 0,
 					"portFromChunk1": true
 				}
