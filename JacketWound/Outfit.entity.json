@@ -891,8 +891,6 @@
 						"015a197590553696",
 						"f8ee78626a159e96",
 						"005bfe6c561ddf8c",
-						"b0138f128654941b",
-						"6ef8794ba6e516ae",
 						"9a6cbf654087855c",
 						"f244f84e096c1f9d",
 						"d5cddd9008d2f050",
@@ -1014,21 +1012,6 @@
 				}
 			}
 		},
-		"6ef8794ba6e516ae": {
-			"parent": "0196c032594a3655",
-			"name": "Mesh_Beard",
-			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0070089E341A3353",
-						"flag": "5F"
-					}
-				}
-			}
-		},
 		"f6912771c1a15c50": {
 			"parent": "b1df40cae6b5b7da",
 			"name": "CChain_Spine_R",
@@ -1089,21 +1072,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "b1df40cae6b5b7da",
 					"postInit": true
-				}
-			}
-		},
-		"b0138f128654941b": {
-			"parent": "0196c032594a3655",
-			"name": "Mesh_Hair",
-			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "001802A69BE1C15B",
-						"flag": "5F"
-					}
 				}
 			}
 		},

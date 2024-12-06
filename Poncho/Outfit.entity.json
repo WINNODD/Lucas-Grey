@@ -35,9 +35,9 @@
 		},
 		"7dcfa1e5c9e1f126": {
 			"parent": null,
-			"name": "OUTFIT_Cinematic_LucasGrey_Poncho_Actor_v0",
-			"factory": "00A9AD805B92ED71",
-			"blueprint": "00B1F416EEE92077",
+			"name": "OUTFIT_WINNODD_LucasGrey_Poncho_M_Actor_v0",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
 			"properties": {
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -61,7 +61,7 @@
 				"m_pBonesAndCollisionResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "0068D921CD6FA845",
+						"resource": "0017416135CF879C",
 						"flag": "5F"
 					}
 				},
@@ -72,7 +72,6 @@
 						"bfa6cb41d33bb6ae",
 						"d99cfed541f3b4fd",
 						"08981b6b4dbc10f0",
-						"613ccb7caf51ba3b",
 						"943a7b62f26fff4b",
 						"82600777c6ef297c",
 						"95c87fae05c34cfe",
@@ -160,33 +159,9 @@
 		},
 		"ada5094ee0f9cab2": {
 			"parent": "7dcfa1e5c9e1f126",
-			"name": "Part_Head",
-			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00FFA54477391810",
-						"flag": "5F"
-					}
-				}
-			}
-		},
-		"613ccb7caf51ba3b": {
-			"parent": "7dcfa1e5c9e1f126",
-			"name": "Mesh_Jacket",
-			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
-			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMeshResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00FF338305987763",
-						"flag": "5F"
-					}
-				}
-			}
+			"name": "Head_LucasGrey",
+			"factory": "00FA41C25F90B53D",
+			"blueprint": "00D98E235D0B78A3"
 		},
 		"08981b6b4dbc10f0": {
 			"parent": "7dcfa1e5c9e1f126",

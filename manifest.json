@@ -294,14 +294,16 @@
 			"tooltip": "Disguise as anyone in Colorado",
 			"type": "checkbox",
 			"contentFolders": [
-				"Colorado",
-				"ShareS1",
-				"ShareParisMarrakeshColorado",
-				"ShareSapiBangkokColoradoHokkaido"
+				"Poncho"
 			],
 			"dependencies": [
 				{
-					"runtimeID": "0072C345D02ADE97",
+					"runtimeID": "00F38B3622078CF1",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0008A916D3DC9708",
 					"toChunk": 0,
 					"portFromChunk1": true
 				}
