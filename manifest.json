@@ -1,0 +1,282 @@
+{
+	"version": "1.0.0",
+	"id": "WINNODD.LucasGreySuits",
+	"name": "Many Faces of Lucas Grey",
+	"updateCheck": "https://raw.githubusercontent.com/WINNODD/mod-update-checks/refs/heads/main/updater-chameleonist-47.json",
+	"description": "Play as Lucas Grey",
+	"authors": [
+		"WINNODD"
+	],
+	"frameworkVersion": "2.33.20",
+	"contentFolders": [
+		"Freelancer"
+	],
+	"dependencies": [
+		{
+			"runtimeID": "00E3AC6141A1094B",
+			"toChunk": 0,
+			"portFromChunk1": true
+		}
+	],
+	"options": [
+		{
+			"name": "Jacket",
+			"tooltip": "Disguise as anyone in ICA Facility",
+			"type": "checkbox",
+			"contentFolders": [
+				"ICA Facility",
+				"ShareS1",
+				"ShareICAParisSapiMarrakesh",
+				"ShareICASapi",
+				"ShareICAParisSapiMarrakeshBangkok"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "005CB07C69DFFF2A",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "008E18DFC5DB43AC",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00AF11E494E416DC",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00D34A349ED35CB5",
+					"toChunk": 0,
+					"portFromChunk1": true
+				}
+			]
+		},
+		{
+			"name": "Jacket with wounds",
+			"tooltip": "Disguise as anyone in Paris",
+			"type": "checkbox",
+			"contentFolders": [
+				"Paris",
+				"ShareS1",
+				"ShareParisSapi",
+				"ShareICAParisSapiMarrakesh",
+				"ShareParisMarrakesh",
+				"ShareParisMarrakeshColorado",
+				"ShareICAParisSapiMarrakeshBangkok"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "005CB07C69DFFF2A",
+					"toChunk": 0,
+					"portFromChunk1": true
+				}
+			]
+		},
+		{
+			"name": "Shirt",
+			"tooltip": "Disguise as anyone in Sapienza",
+			"type": "checkbox",
+			"contentFolders": [
+				"Sapienza",
+				"ShareS1",
+				"ShareICASapi",
+				"ShareParisSapi",
+				"ShareICAParisSapiMarrakesh",
+				"ShareSapiMarrakesh",
+				"ShareSapiMarrakeshBangkok",
+				"ShareICAParisSapiMarrakeshBangkok",
+				"ShareSapiBangkokColoradoHokkaido"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00C48A703EA35E08",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "005CB07C69DFFF2A",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "008E18DFC5DB43AC",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00F82E54EAC058AF",
+					"toChunk": 1
+				},
+				{
+					"runtimeID": "0069176EDF6645C8",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0097E2AF85F1FE79",
+					"toChunk": 26
+				},
+				{
+					"runtimeID": "00AF11E494E416DC",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0054D5B03CEC2DB7",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "008031E3566CA530",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00D34A349ED35CB5",
+					"toChunk": 0,
+					"portFromChunk1": true
+				}
+			]
+		},
+		{
+			"name": "Shirt from Dubai intro",
+			"tooltip": "Disguise as anyone in Marrakesh",
+			"type": "checkbox",
+			"contentFolders": [
+				"Marrakesh",
+				"ShareS1",
+				"ShareICAParisSapiMarrakesh",
+				"ShareSapiMarrakesh",
+				"ShareParisMarrakesh",
+				"ShareParisMarrakeshColorado",
+				"ShareSapiMarrakeshBangkok",
+				"ShareICAParisSapiMarrakeshBangkok"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "005CB07C69DFFF2A",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0069176EDF6645C8",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00AF11E494E416DC",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0054D5B03CEC2DB7",
+					"toChunk": 0,
+					"portFromChunk1": true
+				}
+			]
+		},
+		{
+			"name": "Skydiving suit",
+			"tooltip": "Disguise as anyone in Bangkok",
+			"type": "checkbox",
+			"contentFolders": [
+				"Bangkok",
+				"ShareS1",
+				"ShareSapiMarrakeshBangkok",
+				"ShareICAParisSapiMarrakeshBangkok",
+				"ShareSapiBangkokColoradoHokkaido"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00C48A703EA35E08",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0069176EDF6645C8",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00AF11E494E416DC",
+					"toChunk": 0,
+					"portFromChunk1": true
+				}
+			]
+		},
+		{
+			"name": "Poncho",
+			"tooltip": "Disguise as anyone in Colorado",
+			"type": "checkbox",
+			"contentFolders": [
+				"Colorado",
+				"ShareS1",
+				"ShareParisMarrakeshColorado",
+				"ShareSapiBangkokColoradoHokkaido"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0,
+					"portFromChunk1": true
+				}
+			]
+		},
+		{
+			"name": "Knight Armor from Comfy Safehouse Expansion (Another mod of mine, not bulletproof)",
+			"tooltip": "Disguise as anyone in Hokkaido",
+			"type": "checkbox",
+			"contentFolders": [
+				"Hokkaido",
+				"ShareS1",
+				"ShareSapiBangkokColoradoHokkaido"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "0072C345D02ADE97",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00DC68856831C7B8",
+					"toChunk": 1
+				}
+			]
+		},
+		{
+			"name": "Replace every 47's head",
+			"tooltip": "Heavy clipping issue since it's a joke option. Please don't report as bug.",
+			"type": "checkbox",
+			"contentFolders": [
+				"Hawke's Bay"
+			]
+		}
+	]
+}
