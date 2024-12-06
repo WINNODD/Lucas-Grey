@@ -8,9 +8,6 @@
 		"WINNODD"
 	],
 	"frameworkVersion": "2.33.20",
-	"contentFolders": [
-		"Freelancer"
-	],
 	"dependencies": [
 		{
 			"runtimeID": "00FA41C25F90B53D",
@@ -45,7 +42,7 @@
 			]
 		},
 		{
-			"name": "The Smuggler",
+			"name": "Smuggler",
 			"tooltip": "Lucas Grey in the poncho that worn while on the boat with 47 in the middle of night.",
 			"type": "checkbox",
 			"contentFolders": [
@@ -61,90 +58,6 @@
 					"runtimeID": "0008A916D3DC9708",
 					"toChunk": 0,
 					"portFromChunk1": true
-				}
-			]
-		},
-		{
-			"name": "Shirt",
-			"tooltip": "Disguise as anyone in Sapienza",
-			"type": "checkbox",
-			"contentFolders": [
-				"Sapienza",
-				"ShareS1",
-				"ShareICASapi",
-				"ShareParisSapi",
-				"ShareICAParisSapiMarrakesh",
-				"ShareSapiMarrakesh",
-				"ShareSapiMarrakeshBangkok",
-				"ShareICAParisSapiMarrakeshBangkok",
-				"ShareSapiBangkokColoradoHokkaido"
-			],
-			"dependencies": [
-				{
-					"runtimeID": "0072C345D02ADE97",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "00C48A703EA35E08",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "005CB07C69DFFF2A",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "008E18DFC5DB43AC",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "00F82E54EAC058AF",
-					"toChunk": 1
-				}
-			]
-		},
-		{
-			"name": "Shirt with armband",
-			"tooltip": "Disguise as anyone in Sapienza",
-			"type": "checkbox",
-			"contentFolders": [
-				"Sapienza",
-				"ShareS1",
-				"ShareICASapi",
-				"ShareParisSapi",
-				"ShareICAParisSapiMarrakesh",
-				"ShareSapiMarrakesh",
-				"ShareSapiMarrakeshBangkok",
-				"ShareICAParisSapiMarrakeshBangkok",
-				"ShareSapiBangkokColoradoHokkaido"
-			],
-			"dependencies": [
-				{
-					"runtimeID": "0072C345D02ADE97",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "00C48A703EA35E08",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "005CB07C69DFFF2A",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "008E18DFC5DB43AC",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "00F82E54EAC058AF",
-					"toChunk": 1
 				}
 			]
 		},
@@ -361,10 +274,18 @@
 		{
 			"name": "Replace every 47's head",
 			"tooltip": "Heavy clipping issue since it's a joke option. Please don't report as bug.",
-			"type": "checkbox",
+			"type": "select",
+			"group": "Most lazy head swap",
 			"contentFolders": [
-				"Hawke's Bay"
+				"Head"
 			]
+		},
+		{
+			"name": "Do nothing",
+			"tooltip": "Heavy clipping issue since it's a joke option. Please don't report as bug.",
+			"type": "select",
+			"group": "Most lazy head swap",
+			"contentFolders": []
 		}
 	]
 }
