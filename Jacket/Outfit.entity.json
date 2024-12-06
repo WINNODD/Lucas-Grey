@@ -263,30 +263,9 @@
 			"factory": "00324595397CC0A5",
 			"blueprint": "00D58D62EFA4579E",
 			"properties": {
-				"Texture2DNormal_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "006AA60835A796C1",
-						"flag": "5F"
-					}
-				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0070CA134D3881BF",
-						"flag": "5F"
-					}
-				},
 				"ConstantVector1D_01_Value": {
 					"type": "float32",
 					"value": 0.5
-				},
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "00DAA699AA655196",
-						"flag": "5F"
-					}
 				},
 				"Diffuse_Saturation_01_Value": {
 					"type": "float32",
