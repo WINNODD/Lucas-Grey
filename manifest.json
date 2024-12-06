@@ -13,7 +13,7 @@
 	],
 	"dependencies": [
 		{
-			"runtimeID": "00E3AC6141A1094B",
+			"runtimeID": "00FA41C25F90B53D",
 			"toChunk": 0,
 			"portFromChunk1": true
 		}
@@ -123,35 +123,48 @@
 				{
 					"runtimeID": "00F82E54EAC058AF",
 					"toChunk": 1
-				},
+				}
+			]
+		},
+		{
+			"name": "Shirt with armband",
+			"tooltip": "Disguise as anyone in Sapienza",
+			"type": "checkbox",
+			"contentFolders": [
+				"Sapienza",
+				"ShareS1",
+				"ShareICASapi",
+				"ShareParisSapi",
+				"ShareICAParisSapiMarrakesh",
+				"ShareSapiMarrakesh",
+				"ShareSapiMarrakeshBangkok",
+				"ShareICAParisSapiMarrakeshBangkok",
+				"ShareSapiBangkokColoradoHokkaido"
+			],
+			"dependencies": [
 				{
-					"runtimeID": "0069176EDF6645C8",
+					"runtimeID": "0072C345D02ADE97",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
 				{
-					"runtimeID": "0097E2AF85F1FE79",
-					"toChunk": 26
-				},
-				{
-					"runtimeID": "00AF11E494E416DC",
+					"runtimeID": "00C48A703EA35E08",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
 				{
-					"runtimeID": "0054D5B03CEC2DB7",
+					"runtimeID": "005CB07C69DFFF2A",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
 				{
-					"runtimeID": "008031E3566CA530",
+					"runtimeID": "008E18DFC5DB43AC",
 					"toChunk": 0,
 					"portFromChunk1": true
 				},
 				{
-					"runtimeID": "00D34A349ED35CB5",
-					"toChunk": 0,
-					"portFromChunk1": true
+					"runtimeID": "00F82E54EAC058AF",
+					"toChunk": 1
 				}
 			]
 		},
