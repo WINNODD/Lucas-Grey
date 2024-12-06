@@ -855,7 +855,7 @@
 		},
 		"0196c032594a3655": {
 			"parent": null,
-			"name": "OUTFIT_WINNODD_LucasGrey_Wounded_M_Actor_v0",
+			"name": "OUTFIT_WINNODD_LucasGrey_Jacket_Wounded_M_Actor_v0",
 			"factory": "00C0753FBF784C66",
 			"blueprint": "007294473357329E",
 			"properties": {
