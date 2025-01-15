@@ -3,7 +3,7 @@
 	"id": "WINNODD.LucasGreySuits",
 	"name": "Many Faces of Lucas Grey",
 	"updateCheck": "https://raw.githubusercontent.com/WINNODD/mod-update-checks/refs/heads/main/updater-many-faces-of-lucas-grey.json",
-	"description": "Play as Lucas Grey",
+	"description": "Play as Lucas Grey. Hover your mouse on options for details.",
 	"authors": [
 		"WINNODD"
 	],
@@ -18,7 +18,7 @@
 	"options": [
 		{
 			"name": "Sniper",
-			"tooltip": "Put on the armband, Lucas Grey observes 47 from a distant hill.",
+			"tooltip": "Put on the armband, Lucas Grey observes 47 from a distant hill.\nReplace Summer Sightseeing Suit with Gloves.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Shirt"
@@ -33,7 +33,7 @@
 		},
 		{
 			"name": "Shadow Client",
-			"tooltip": "Dressed in the jacket, Lucas Grey confronts 47 in the asylum.",
+			"tooltip": "Dressed in the jacket, Lucas Grey confronts 47 in the asylum.\nReplace Number Six with Gloves.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Jacket"
@@ -58,7 +58,7 @@
 		},
 		{
 			"name": "Smuggler",
-			"tooltip": "Wrapped in a poncho, Lucas Grey voyages with 47 in the northern sea.",
+			"tooltip": "Wrapped in a poncho, Lucas Grey voyages with 47 in the northern sea.\nReplace Neon City Suit with Gloves.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Poncho"
@@ -78,7 +78,7 @@
 		},
 		{
 			"name": "Traveler",
-			"tooltip": "Clad in the shirt, Lucas Grey roams with 47 in the deserts.",
+			"tooltip": "Clad in the shirt, Lucas Grey roams with 47 in the deserts.\nReplace Trendy Tourist Suit.",
 			"type": "checkbox",
 			"contentFolders": [
 				"ShirtDubai"
@@ -113,7 +113,7 @@
 		},
 		{
 			"name": "Skydiver",
-			"tooltip": "Geared up in the suit, Lucas Grey descends with 47 through the sky.",
+			"tooltip": "Geared up in the suit, Lucas Grey descends with 47 through the sky.\nReplace Ashen Suit with Gloves.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Skydiving"
@@ -138,7 +138,7 @@
 		},
 		{
 			"name": "Number 6",
-			"tooltip": "Stained in blood, Lucas Grey sacrifices himself for 47 in the woods.",
+			"tooltip": "Stained in blood, Lucas Grey sacrifices himself for 47 in the woods.\nReplace Classic Cut Long Coat Suit with Gloves.",
 			"type": "checkbox",
 			"contentFolders": [
 				"JacketWound"
@@ -223,7 +223,7 @@
 		},
 		{
 			"name": "Knight",
-			"tooltip": "Rigged out in armor, Lucas Grey guards 47's treasure in the ruins.",
+			"tooltip": "Rigged out in armor, Lucas Grey guards 47's treasure in the ruins.\nReplace Black & White Tuxedo Set with Gloves.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Knight"
