@@ -1,0 +1,21 @@
+{
+	"tempHash": "007A341662CBE78B",
+	"tbluHash": "00F668C64B98FBDB",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"8e5268af374761a8",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_Outfit",
+						"value": {
+							"resource": "007F52966C53D8E0",
+							"flag": "9F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
