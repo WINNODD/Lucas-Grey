@@ -17,8 +17,33 @@
 	],
 	"options": [
 		{
+			"name": "Sniper",
+			"tooltip": "put on the armband, Lucas Grey observes 47 from a distant hill.",
+			"type": "checkbox",
+			"contentFolders": [
+				"Shirt"
+			],
+			"dependencies": [
+				{
+					"runtimeID": "00514C84C7CAE321",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00F706C62B84F93C",
+					"toChunk": 0,
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "000ED0A45BA274F8",
+					"toChunk": 0,
+					"portFromChunk1": true
+				}
+			]
+		},
+		{
 			"name": "Shadow Client",
-			"tooltip": "Lucas Grey in the jacket that worn while revealing himself to 47 as his childhood brother 6.",
+			"tooltip": "Dressed in the jacket, Lucas Grey confronts 47 in the asylum.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Jacket"
@@ -43,7 +68,7 @@
 		},
 		{
 			"name": "Smuggler",
-			"tooltip": "Lucas Grey in the poncho that worn while on the boat with 47 in the middle of night.",
+			"tooltip": "Wrapped in a poncho, Lucas Grey voyages with 47 in the northern sea.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Poncho"
@@ -62,8 +87,8 @@
 			]
 		},
 		{
-			"name": "Desperate Traveler",
-			"tooltip": "Lucas Grey in the shirt that worn while traveling in Dubai with 47.",
+			"name": "Traveler",
+			"tooltip": "Clad in the shirt, Lucas Grey roams with 47 in the deserts.",
 			"type": "checkbox",
 			"contentFolders": [
 				"ShirtDubai"
@@ -98,7 +123,7 @@
 		},
 		{
 			"name": "Skydiver",
-			"tooltip": "Lucas Grey in the suit that worn while falling in the sky with 47 hunting the parters.",
+			"tooltip": "Geared up in the suit, Lucas Grey descends with 47 through the sky.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Skydiving"
@@ -123,7 +148,7 @@
 		},
 		{
 			"name": "Number 6",
-			"tooltip": "Lucas Grey in the jacket that worn while protecting 47 from exposing his disguise",
+			"tooltip": "Stained in blood, Lucas Grey sacrifices himself for 47 in the woods.",
 			"type": "checkbox",
 			"contentFolders": [
 				"JacketWound"
@@ -207,8 +232,8 @@
 			]
 		},
 		{
-			"name": "Knight Armor",
-			"tooltip": "Lucas Grey in the knight armor when he's hiding in 47's safehouse, being 47's combat master.",
+			"name": "Knight",
+			"tooltip": "Rigged out in armor, Lucas Grey guards 47's treasure in the ruins.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Knight"
