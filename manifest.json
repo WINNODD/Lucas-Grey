@@ -18,24 +18,14 @@
 	"options": [
 		{
 			"name": "Sniper",
-			"tooltip": "put on the armband, Lucas Grey observes 47 from a distant hill.",
+			"tooltip": "Put on the armband, Lucas Grey observes 47 from a distant hill.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Shirt"
 			],
 			"dependencies": [
 				{
-					"runtimeID": "00514C84C7CAE321",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "00F706C62B84F93C",
-					"toChunk": 0,
-					"portFromChunk1": true
-				},
-				{
-					"runtimeID": "000ED0A45BA274F8",
+					"runtimeID": "001BD12EF4759E71",
 					"toChunk": 0,
 					"portFromChunk1": true
 				}

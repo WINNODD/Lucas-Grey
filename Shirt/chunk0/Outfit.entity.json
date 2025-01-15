@@ -1,0 +1,242 @@
+{
+	"tempHash": "00619B4DBD7DBAAA",
+	"tbluHash": "00532BF981BB8202",
+	"rootEntity": "338fd1a8d7cb947d",
+	"entities": {
+		"426a0c99601fe77b": {
+			"parent": "338fd1a8d7cb947d",
+			"name": "Mesh_WristWatch",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A47E6BA86CB473",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"e50eb3f162f06202": {
+			"parent": "338fd1a8d7cb947d",
+			"name": "Head_LucasGrey",
+			"factory": "00FA41C25F90B53D",
+			"blueprint": "00D98E235D0B78A3"
+		},
+		"a476781e7a1147a2": {
+			"parent": "338fd1a8d7cb947d",
+			"name": "Belt_SnapBuckle",
+			"factory": "00374424F12366CA",
+			"blueprint": "000E31C6E6B40637",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#2b2b2b"
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E4CE86EE7A5CC2",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"338fd1a8d7cb947d": {
+			"parent": null,
+			"name": "OUTFIT_WINNODD_LucasGrey_Shirt_M_Actor_v0",
+			"factory": "00C0753FBF784C66",
+			"blueprint": "007294473357329E",
+			"properties": {
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_fFrustumFarDistanceProperty": {
+					"type": "float32",
+					"value": 40.0
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0017416135CF879C",
+						"flag": "5F"
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"8574820d6116651a",
+						"e50eb3f162f06202",
+						"a47cc427da22b5ca",
+						"fda928cb9161fe90",
+						"a476781e7a1147a2",
+						"df207d5a13c79115",
+						"426a0c99601fe77b",
+						"cafea18a8075f86d"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"8574820d6116651a": {
+			"parent": "338fd1a8d7cb947d",
+			"name": "Mesh_Tshirt",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BB99FF6C25FA9B",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"df207d5a13c79115": {
+			"parent": "338fd1a8d7cb947d",
+			"name": "Shoes_Derby_CapToe_SquareTip",
+			"factory": "0033E9BBFCA7B067",
+			"blueprint": "0002D822B863CAA8",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#363636"
+				}
+			}
+		},
+		"a47cc427da22b5ca": {
+			"parent": "338fd1a8d7cb947d",
+			"name": "Pants_Dress_Regular",
+			"factory": "00324595397CC0A5",
+			"blueprint": "00D58D62EFA4579E",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#404040"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00AF802D36A4241A",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.5
+				}
+			}
+		},
+		"fda928cb9161fe90": {
+			"parent": "338fd1a8d7cb947d",
+			"name": "Arms_Biceps_Hand",
+			"factory": "0081BA55B3D8292E",
+			"blueprint": "00CFA61BB1571AF8"
+		},
+		"cafea18a8075f86d": {
+			"parent": "338fd1a8d7cb947d",
+			"name": "Mesh_ElbowBrace",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001BD12EF4759E71",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{ "resource": "00818BA637895231", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/variance_a.tex](asheightmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "008E0FCF89ED862E", "flag": "5F" },
+		{ "resource": "002C7E7EE46D0CD2", "flag": "5F" },
+		{ "resource": "00F3654BB38A68EC", "flag": "5F" },
+		{ "resource": "00416AEE98A04929", "flag": "5F" },
+		{ "resource": "00BC38B1FBD65A9A", "flag": "5F" },
+		{ "resource": "00D790732E8C2D6B", "flag": "5F" },
+		{ "resource": "001A5838D3AC6A31", "flag": "5F" },
+		{ "resource": "006FC31B17B5DF35", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/directional_a.texture?/normal_a.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "0006237DF989C3F0", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/nemesis/textures/male_nemesis_hair_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/nemesis/textures/male_nemesis_hair_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/nemesis/textures/male_nemesis_hair_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "001083E516801F5E", "flag": "5F" },
+		{ "resource": "00FFC5352D7A5D64", "flag": "5F" },
+		{ "resource": "008FB9839A39D7B9", "flag": "5F" },
+		{ "resource": "0051A1136DC9485E", "flag": "5F" },
+		{ "resource": "001EE759F57B6DCE", "flag": "5F" },
+		{ "resource": "005CF2C7C8B423F8", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/hero/agent47/textures/shoes_suit.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00A05761E67B636C", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/normal_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_fem_regular/textures/female_reg_eyelashes.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/detailmaps/default.texture?/detail_a.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
