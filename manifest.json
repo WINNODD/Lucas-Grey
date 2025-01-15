@@ -2,12 +2,12 @@
 	"version": "1.0.0",
 	"id": "WINNODD.LucasGreySuits",
 	"name": "Many Faces of Lucas Grey",
-	"updateCheck": "https://raw.githubusercontent.com/WINNODD/mod-update-checks/refs/heads/main/updater-chameleonist-47.json",
+	"updateCheck": "https://raw.githubusercontent.com/WINNODD/mod-update-checks/refs/heads/main/updater-many-faces-of-lucas-grey.json",
 	"description": "Play as Lucas Grey",
 	"authors": [
 		"WINNODD"
 	],
-	"frameworkVersion": "2.33.20",
+	"frameworkVersion": "2.33.23",
 	"dependencies": [
 		{
 			"runtimeID": "00FA41C25F90B53D",
