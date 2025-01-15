@@ -1,5 +1,5 @@
 {
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"id": "WINNODD.LucasGreySuits",
 	"name": "Many Faces of Lucas Grey",
 	"updateCheck": "https://raw.githubusercontent.com/WINNODD/mod-update-checks/refs/heads/main/updater-many-faces-of-lucas-grey.json",
@@ -33,7 +33,7 @@
 		},
 		{
 			"name": "Shadow Client",
-			"tooltip": "Dressed in the jacket, Lucas Grey confronts 47 in the asylum.\nReplace Number Six with Gloves.",
+			"tooltip": "Dressed in the jacket, Lucas Grey confronts 47 in the asylum.\nReplace Classic Cut Long Coat Suit with Gloves.",
 			"type": "checkbox",
 			"contentFolders": [
 				"Jacket"
@@ -138,7 +138,7 @@
 		},
 		{
 			"name": "Number 6",
-			"tooltip": "Stained in blood, Lucas Grey sacrifices himself for 47 in the woods.\nReplace Classic Cut Long Coat Suit with Gloves.",
+			"tooltip": "Stained in blood, Lucas Grey sacrifices himself for 47 in the woods.\nReplace Number Six with Gloves.",
 			"type": "checkbox",
 			"contentFolders": [
 				"JacketWound"
@@ -287,8 +287,8 @@
 			]
 		},
 		{
-			"name": "Replace every 47's head",
-			"tooltip": "Heavy clipping issue since it's a joke option. Please don't report as bug.",
+			"name": "Replace 47's head on Season 2 and Season 3 outfits.",
+			"tooltip": "Heavy clipping issue since it's a joke option. Please don't report as a bug.",
 			"type": "select",
 			"group": "Most lazy head swap",
 			"contentFolders": [
@@ -297,10 +297,11 @@
 		},
 		{
 			"name": "Do nothing",
-			"tooltip": "Heavy clipping issue since it's a joke option. Please don't report as bug.",
+			"tooltip": "Do nothing",
 			"type": "select",
 			"group": "Most lazy head swap",
-			"contentFolders": []
+			"contentFolders": [],
+			"enabledByDefault": true
 		}
 	]
 }

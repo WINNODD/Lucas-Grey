@@ -1,10 +1,10 @@
 {
-	"tempHash": "001CDC4E7F3CF65A",
-	"tbluHash": "00F6C444C10698B3",
+	"tempHash": "00C3A99332DE7DE7",
+	"tbluHash": "00637BFEA313BACE",
 	"patch": [
 		{
 			"SubEntityOperation": [
-				"f69de769c0687619",
+				"6912dcfcc84f4ba2",
 				{
 					"SetPropertyValue": {
 						"property_name": "m_Outfit",
